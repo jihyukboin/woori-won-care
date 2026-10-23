@@ -1,0 +1,104 @@
+/* Pretendard v1.3.9 — SIL Open Font License (fonts/pretendard/LICENSE). */
+@font-face {
+  font-family: "Pretendard";
+  src: url("fonts/pretendard/Pretendard-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("fonts/pretendard/Pretendard-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@page{size:A4 portrait;margin:0}*{box-sizing:border-box}html,body{margin:0;background:#f8fafd;color:#161616;font-family:"Pretendard","Malgun Gothic","Apple SD Gothic Neo",sans-serif;font-size:9pt;line-height:1.32;-webkit-print-color-adjust:exact;print-color-adjust:exact}.page{width:210mm;height:297mm;margin:8mm auto;padding:10mm 10mm 12mm;background:#fff;border:1px solid #333;position:relative;overflow:hidden;page-break-after:always;break-after:page}.page:last-child{page-break-after:auto;break-after:auto}.topline{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #222;padding-bottom:1.5mm;margin-bottom:3mm;font-size:9pt;color:#555}.topline b{font-size:9pt;color:#111}.title{margin:0 0 2mm;font-size:18pt;line-height:1.18;letter-spacing:-.04em}.subtitle{font-size:10pt;margin:0 0 3mm;color:#444}.sec{margin:0 0 3mm}.sec-title{display:flex;align-items:center;gap:1.6mm;margin:0 0 1.5mm;padding:1.1mm 1.5mm;border:1px solid #222;font-size:10pt;line-height:1.2}.sec-title .no{display:inline-grid;place-items:center;width:5mm;height:5mm;background:#111;color:#fff;font-size:9pt}.h3{font-weight:700;margin:1.2mm 0 .7mm;font-size:9pt}.box{border:1px solid #555;padding:1.7mm 2mm;margin:0 0 1.5mm}.box p{margin:0 0 1mm}.box p:last-child{margin-bottom:0}.grid{display:grid;gap:1.5mm}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:1.3mm;margin:2mm 0}.kpi{border:1px solid #333;text-align:center;padding:1.5mm .7mm}.kpi strong{display:block;font-size:14pt;line-height:1.1}.kpi span{font-size:9pt}.tag{font-weight:700;color:#111}.small{font-size:9pt;line-height:1.28}.note{font-size:9pt;background:#f4f4f4;border-left:2px solid #555;padding:1.4mm 2mm;margin-top:1.3mm}table{border-collapse:collapse;width:100%;font-size:9pt;margin:1.2mm 0}th,td{border:1px solid #444;padding:1.1mm 1.5mm;text-align:left;vertical-align:top}thead th{background:#e8e8e8;text-align:center;font-weight:700}td.num,th.num{text-align:right;white-space:nowrap}.flow{display:flex;align-items:stretch;gap:1mm;margin:1.6mm 0}.flow .node{flex:1;border:1px solid #444;text-align:center;padding:2mm 1mm;background:#f7f7f7;font-weight:700}.flow .arrow{align-self:center;font-weight:700}.matrix td:first-child{font-weight:700;width:23%;background:#f2f2f2}.matrix td:nth-child(2){width:31%}.matrix td:nth-child(3){width:46%}.steps{counter-reset:step}.step{display:grid;grid-template-columns:7mm 1fr;gap:1.5mm;padding:1.5mm 0;border-bottom:1px solid #aaa}.step:last-child{border:0}.step:before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:5.5mm;height:5.5mm;background:#e8e8e8;border:1px solid #444;font-weight:700}.step h3{font-size:9pt;margin:0 0 .6mm}.step p{margin:0}.footer{position:absolute;bottom:4mm;left:10mm;right:10mm;display:flex;justify-content:space-between;border-top:1px solid #777;padding-top:1mm;color:#555;font-size:9pt}.diagram-label{font-size:9pt;text-align:center;margin:-.8mm 0 1mm;color:#444}.evidence{width:100%;height:auto;display:block;border:1px solid #777}.archimg{max-width:168mm;margin:0 auto}.figurebox{border:1px solid #555;padding:1.2mm;margin:0}.figurebox figcaption{font-size:9pt;text-align:center;margin-top:.7mm;color:#444}.chartbox{align-self:center}
+.chartbox .evidence{border:0}.pillrow{display:flex;gap:2mm;justify-content:center;margin:1.5mm 0}.pill{padding:1.2mm 3mm;border:1px solid #555;border-radius:8mm;font-size:9pt;font-weight:700}.callout{border:1px solid #222;background:#f3f3f3;padding:2mm;font-weight:700;text-align:center;margin:1.5mm 0}.refs{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2mm}.refs div{border:1px solid #555;padding:1.3mm;font-size:9pt}.refs b{display:block;margin-bottom:.5mm}@media print{html,body{background:#fff}.page{margin:0;border:1px solid #333;box-shadow:none}}@media screen{.page{box-shadow:0 2px 12px #0002}}
+
+/* Readable A4 typography and crisp vector figures. */
+html,body{font-size:10pt;line-height:1.38}
+.page{padding:9mm 9mm 12mm;overflow:visible}
+.sec{margin-bottom:3mm}.sec-title{font-size:11pt;padding:1.1mm 1.6mm;margin-bottom:1.6mm}
+.sec-title .no{width:auto;min-width:6mm;padding:0 1mm;font-size:9pt;white-space:nowrap}
+.h3{font-size:10pt;margin:1.2mm 0 1mm}
+.small{font-size:9pt;line-height:1.36}
+.box{padding:1.8mm 2mm}.box b{display:inline-block;margin-bottom:.6mm}.box p{margin-bottom:1.4mm}
+table{font-size:9pt;line-height:1.33}th,td{padding:1.25mm 1.5mm}
+.note{font-size:9pt;line-height:1.38}
+.figurebox{padding:1.5mm;border-color:#777777;background:#fff;margin-bottom:2mm}
+.figurebox svg{width:100%;height:auto;display:block}
+.figurebox figcaption{font-size:9pt;line-height:1.3;margin-top:1mm}
+.step{padding:1.1mm 0;gap:1mm}.step h3{font-size:10pt;margin-bottom:.6mm}
+.step p{font-size:9pt;line-height:1.34}
+.refs{grid-template-columns:repeat(3,1fr);gap:1mm}.refs div{font-size:9pt;line-height:1.3;padding:1.2mm}
+.footer{left:9mm;right:9mm;font-size:10pt}
+.costfigure{margin-top:3mm}.marketfigure{margin-top:4mm}
+.page-5 .sec{margin-bottom:2.2mm}.page-5 .box{padding:1.3mm 1.7mm;margin-bottom:.5mm}
+.page-5 .box p{font-size:9pt;line-height:1.32}.page-5 .flow{margin:1mm 0 1.5mm}
+.page-5 .flow .node{padding:1.4mm 1mm;font-size:9pt}
+.page-5 table{font-size:9pt}.page-5 th,.page-5 td{padding:1mm 1.3mm}
+.page-5 .callout{font-size:9pt;padding:1.3mm;margin:1.2mm 0}
+@media print{.page{height:297mm;min-height:297mm;margin:0;box-shadow:none}}
+
+.page-5 .refs{grid-template-columns:repeat(5,1fr)}
+.page-5 .step{padding:.9mm 0}.page-5 .step p{font-size:9pt;line-height:1.29}
+.page-5 .sec-title{font-size:10.5pt}
+
+/* Consistent heading hierarchy and distinct cell subtitles. */
+.box{--box-py:1.8mm;--box-px:2mm;padding:var(--box-py) var(--box-px)}
+.box>.box-title{display:block;background:#e8e8e8;color:#111;border-bottom:1px solid #666;font-weight:700;font-size:10pt;line-height:1.24;margin:calc(-1 * var(--box-py)) calc(-1 * var(--box-px)) 1.3mm;padding:.95mm var(--box-px);break-after:avoid}
+.page-5 .box{--box-py:1.3mm;--box-px:1.7mm;padding:var(--box-py) var(--box-px)}
+.page-5 .box>.box-title{font-size:10pt;padding:.75mm var(--box-px);margin-bottom:1mm}
+.step h3{font-size:10pt;font-weight:700;background:#ededed;border-left:2px solid #333;padding:.4mm 1.3mm;margin:0 0 .7mm;line-height:1.2}
+.refs>div>b{font-size:9pt;line-height:1.2;color:#111;background:#e8e8e8;border-bottom:1px solid #777;margin:-1.2mm -1.2mm 1mm;padding:.7mm 1.2mm}
+.sec-title{font-weight:700;border:0}.sec-title .no{font-variant-numeric:tabular-nums;min-width:7mm}
+.matrix tbody td:first-child{font-weight:700;color:#111;background:#ededed}
+.architecture-window{width:100%;max-width:168mm;aspect-ratio:1836 / 765;overflow:hidden;margin:0 auto;border:1px solid #777}
+.architecture-window .archimg{max-width:none;width:100%;height:auto;border:0;margin:0}
+
+/* References are listed in order of first citation in the text. */
+.reference-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:0;padding:0;list-style:none;border-top:1px solid #777;border-left:1px solid #777}
+.reference-list li{display:grid;grid-template-columns:6.5mm minmax(0,1fr);gap:.5mm;align-items:start;padding:.85mm 1mm;border-right:1px solid #777;border-bottom:1px solid #777;font-size:9pt;line-height:1.28;break-inside:avoid}
+.reference-number{font-weight:700;color:#111;white-space:nowrap}
+
+.architecture-window{aspect-ratio:auto;overflow:visible}
+
+/* Page 2: aligned process cards and compact full-width technical rows. */
+.page-3 .sec{margin-bottom:2mm}
+.page-3 .sec-title{margin-bottom:1.3mm}
+.page-3 .sec>p{margin:1mm 0 1.5mm}
+.page-3 .figurebox{padding:1mm;margin-bottom:1.5mm}
+.page-3 .architecture-window{max-width:160mm}
+.page-3 .processing-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5mm;align-items:stretch}
+.page-3 .processing-grid>.box{min-width:0;margin:0;--box-py:1.4mm;--box-px:1.7mm}
+.page-3 .processing-grid .box-title{display:flex;align-items:center;min-height:7mm;margin-bottom:1.1mm;font-size:10pt}
+.page-3 .processing-grid p{margin:0;line-height:1.32}
+.page-3 .feasibility-summary,.page-3 .technical-details{table-layout:fixed;width:100%;margin:0;border-collapse:collapse;font-size:9pt;line-height:1.32}
+.page-3 .feasibility-summary th,.page-3 .feasibility-summary td{padding:1.1mm 1.5mm;vertical-align:middle}
+.page-3 .technical-details th,.page-3 .technical-details td{padding:1.4mm 1.8mm;vertical-align:top;overflow-wrap:break-word}
+.page-3 .technical-details th{background:#e8e8e8;text-align:left;border-color:#555}
+.page-3 .technical-details th h3{font-size:10pt;line-height:1.3;margin:0;font-weight:700;color:#111}
+.page-3 .technical-details td p{margin:0;font-size:9pt;line-height:1.32}
+.page-3 .technical-details td p+p{margin-top:1mm}
+.page-3 .technical-details tr{break-inside:avoid}
+
+/* SVG chart typography. */
+text{font-family:"Pretendard","Malgun Gothic","Apple SD Gothic Neo",sans-serif;fill:#222222}.t{font-weight:700}.muted{fill:#666666}
+
+.column-quarter{width:25%}
+.column-half{width:50%}
+.column-three-quarters{width:75%}
+.chart-label-white{fill:white}
+
+/* Match the Google Docs paper outline on screen. */
+@media screen{.page{border:0;outline:1px solid #c4c7c5;box-shadow:none}}
+
+.footer{align-items:center;justify-content:center;border-top:0}
+.footer-brand{display:inline-flex;align-items:center;gap:1mm}
+.footer-logo{display:block;width:7mm;height:7mm;object-fit:contain}
+
+.cover-page{display:flex;align-items:flex-start;justify-content:center;padding:0 0 12mm}
+.cover-image{display:block;width:100%;height:auto;object-fit:contain}
