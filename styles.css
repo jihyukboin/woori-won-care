@@ -140,3 +140,21 @@ text{font-family:"Pretendard","Malgun Gothic","Apple SD Gothic Neo",sans-serif;f
 .page-5 .box p {
   line-height: 1.38;
 }
+
+/* Reference links stay within the existing A4 reference grid. */
+.reference-list a {
+  color: #1155cc;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.reference-list a:hover {
+  color: #003b8e;
+}
+.reference-list a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.citation {
+  font-size: calc(1em - 1px);
+}
